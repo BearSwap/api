@@ -43,4 +43,4 @@ export default async function (req: VercelRequest, res: VercelResponse): Promise
         liquidity: pair.reserveUSD,
         liquidity_BNB: pair.reserveBNB,
   };
-};
+}
