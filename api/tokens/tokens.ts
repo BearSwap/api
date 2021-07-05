@@ -26,4 +26,4 @@ export default async function (req: VercelRequest, res: VercelResponse): Promise
         price_BNB: token?.derivedBNB,
       },
     });
-  
+  };
