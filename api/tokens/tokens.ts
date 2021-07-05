@@ -24,4 +24,5 @@ export default async function (req: VercelRequest, res: VercelResponse): Promise
         symbol: token?.symbol,
         price: token?.derivedUSD,
         price_BNB: token?.derivedBNB,
-      },
+  });
+};
