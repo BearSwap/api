@@ -34,4 +34,4 @@ export default async function (req: VercelRequest, res: VercelResponse): Promise
 
     return200(res, { updated_at: new Date().getTime(), data: pairs,
   });
-};
+}
