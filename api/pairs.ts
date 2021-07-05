@@ -43,9 +43,3 @@ export default async function (req: VercelRequest, res: VercelResponse): Promise
         liquidity: pair.reserveUSD,
         liquidity_BNB: pair.reserveBNB,
       };
-
-      return accumulator;
-    }, {});
-
-    return200(res, { updated_at: new Date().getTime(), data: pairs });
-  
