@@ -42,5 +42,5 @@ export default async function (req: VercelRequest, res: VercelResponse): Promise
         quote_volume: pair.previous24hVolumeToken1,
         liquidity: pair.reserveUSD,
         liquidity_BNB: pair.reserveBNB,
-  });
+  };
 };
